@@ -1,0 +1,6 @@
+# Cloudflare Pages / Netlify: URLs antigas das páginas legais (podem estar cadastradas na Meta e no Google)
+/privacidade.html      /privacidade/        301
+/exclusao-dados.html   /exclusao-de-dados/  301
+/exclusao-dados        /exclusao-de-dados/  301
+/exclusao-dados/       /exclusao-de-dados/  301
+/demo                  /demo/               301
