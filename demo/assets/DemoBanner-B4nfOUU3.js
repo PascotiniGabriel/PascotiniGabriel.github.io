@@ -1,4 +1,4 @@
-import{c as p,j as e,r as s}from"./index-CM1nDP_y.js";const x="https://wa.me/5555999348776?text=Oi%21+Vi+a+demonstra%C3%A7%C3%A3o+do+Faro+e+quero+conversar+sobre+a+minha+imobili%C3%A1ria.+%28ref%3A+demo%29",l=30,b=`
+import{c as p,j as e,r as s}from"./index-BHCZhBT2.js";const x="https://wa.me/5555999348776?text=Oi%21+Vi+a+demonstra%C3%A7%C3%A3o+do+Faro+e+quero+conversar+sobre+a+minha+imobili%C3%A1ria.+%28ref%3A+demo%29",l=30,b=`
 :root { --demo-banner-h: ${l}px; }
 .nexo-demo-bar { position: fixed; z-index: 2147483000; left: 0; right: 0; top: 0; height: var(--demo-banner-h); display: flex; align-items: center;
   justify-content: space-between; gap: 12px; padding: 0 14px; box-sizing: border-box; background: var(--demo-bar-bg, var(--ink, #182329));
