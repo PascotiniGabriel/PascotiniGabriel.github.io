@@ -292,3 +292,27 @@ body{--ink:#161a22;--muted:#5d6675;--line:#e6e4df;--bg:#fff;--bg-alt:#f7f5f1;--c
 .demo-ribbon{background:var(--accent);color:var(--on-accent);text-align:center;font-size:13px;padding:7px 12px;font-weight:600}
 .preview-ribbon{background:#111;color:#fff;text-align:center;font-size:13px;padding:7px 12px}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* Portal do cliente e blog */
+.portal-item{display:grid;gap:22px;padding:26px 0;border-top:1px solid var(--line)}
+.portal-photos img{width:100%;border-radius:var(--radius);aspect-ratio:4/3;object-fit:cover;display:block}
+.portal-thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:8px}
+.portal-thumbs img{aspect-ratio:1;border-radius:calc(var(--radius) * .6)}
+.portal-info h2{font-size:clamp(22px,3vw,30px);margin:4px 0 8px}
+.portal-why{background:var(--primary-soft,var(--bg-alt));border-radius:var(--radius);padding:14px 16px;margin:14px 0}
+.portal-why ul{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+.portal-why li{display:flex;gap:8px;align-items:flex-start}
+.portal-why li svg{width:18px;height:18px;flex:none;margin-top:3px;stroke:var(--primary);fill:none;stroke-width:2}
+.portal-attn{margin:10px 0 0;color:var(--muted);font-size:14px}
+.portal-btns{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.portal-btns .btn{min-width:140px}
+.portal-vote details{margin-top:8px}
+.portal-vote summary{cursor:pointer;color:var(--muted);font-size:14px}
+.portal-vote select,.portal-vote input[type=text]{width:100%;border:1px solid #cfd3da;border-radius:calc(var(--radius) * .7);padding:10px 12px;background:#fff;margin:4px 0 8px}
+.portal-visit{background:var(--bg-alt);border-radius:calc(var(--radius) * 1.3);padding:26px;margin:20px 0 40px}
+.portal-visit fieldset{border:0;padding:0;margin:0;display:grid;gap:6px}
+.portal-visit legend{font-weight:700;margin-bottom:6px}
+.blog-post{max-width:760px}
+.blog-post h2{font-size:26px;margin:28px 0 10px}
+.blog-post p,.blog-post li{font-size:18px}
+@media(min-width:900px){.portal-item{grid-template-columns:1.1fr 1fr;gap:34px}}
